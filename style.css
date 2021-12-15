@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.main-section {
+  margin-top: 80px;
+  display: flex;
+}
+
+img {
+  height: 10rem;
+}
+
+.cards {
+  display: flex;
+}
+
+.random-info {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: wheat;
+  color: black;
+  text-align: center;
+}
+
+.sign {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  margin: 100px;
+  background-color: white;
+  color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
